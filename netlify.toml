@@ -8,8 +8,58 @@
   publish = "dist/public"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/api/auth/login"
+  to = "/.netlify/functions/auth-login"
+  status = 200
+
+[[redirects]]
+  from = "/api/auth/user"
+  to = "/.netlify/functions/auth-user"
+  status = 200
+
+[[redirects]]
+  from = "/api/campaigns"
+  to = "/.netlify/functions/campaigns"
+  status = 200
+
+[[redirects]]
+  from = "/api/campaigns/*/check-status"
+  to = "/.netlify/functions/campaign-status"
+  status = 200
+
+[[redirects]]
+  from = "/api/campaigns/*/download"
+  to = "/.netlify/functions/campaign-download"
+  status = 200
+
+[[redirects]]
+  from = "/api/campaigns/*"
+  to = "/.netlify/functions/campaign-detail"
+  status = 200
+
+[[redirects]]
+  from = "/api/credits/transactions"
+  to = "/.netlify/functions/credit-transactions"
+  status = 200
+
+[[redirects]]
+  from = "/api/create-subscription"
+  to = "/.netlify/functions/create-subscription"
+  status = 200
+
+[[redirects]]
+  from = "/api/stripe-webhook"
+  to = "/.netlify/functions/stripe-webhook"
+  status = 200
+
+[[redirects]]
+  from = "/api/stats"
+  to = "/.netlify/functions/stats"
+  status = 200
+
+[[redirects]]
+  from = "/api/hello"
+  to = "/.netlify/functions/hello"
   status = 200
 
 [[redirects]]
