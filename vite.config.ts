@@ -17,4 +17,5 @@ export default defineConfig({
       "@assets": path.resolve(path.dirname(fileURLToPath(import.meta.url)), "./attached_assets"),
     },
   },
+  publicDir: "public",
 });

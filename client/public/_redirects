@@ -1,0 +1,12 @@
+/api/auth/login /.netlify/functions/auth-login 200
+/api/auth/user /.netlify/functions/auth-user 200
+/api/campaigns /.netlify/functions/campaigns 200
+/api/campaigns/*/check-status /.netlify/functions/campaign-status 200
+/api/campaigns/*/download /.netlify/functions/campaign-download 200
+/api/campaigns/* /.netlify/functions/campaign-detail 200
+/api/credits/transactions /.netlify/functions/credit-transactions 200
+/api/create-subscription /.netlify/functions/create-subscription 200
+/api/stripe-webhook /.netlify/functions/stripe-webhook 200
+/api/stats /.netlify/functions/stats 200
+/api/hello /.netlify/functions/hello 200
+/* /index.html 200
